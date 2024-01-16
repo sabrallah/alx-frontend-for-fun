@@ -95,4 +95,4 @@ if __name__ == '__main__':
                 html.write('</ol>\n')
             if paragrapH:
                 html.write('</p>\n')
-    exit (0)
+    exit(0)
