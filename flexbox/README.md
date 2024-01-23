@@ -15,16 +15,16 @@ Different possible properties using CSS Flexbox layout
 
 ## Resources:books:
 Read or watch:
-* [A complete Guide to Flexbox | CSS-Tricks] (https://intranet.hbtn.io/rltoken/L8LGfjgBbkWIFn1iRr8fHQ)
-* [Flexbox Froggy - A game for learning CSS flexbox] (https://intranet.hbtn.io/rltoken/wrW7jiGsqCenlUwTEyDj8A)
-* [Flexbox Defense] (https://intranet.hbtn.io/rltoken/cnJWcWrkMB80n4XN8QXbGw)
-* [Flexbox Cheatsheet] (https://intranet.hbtn.io/rltoken/XNhvdZUi7WwizPrSRzxaqQ)
-* [CSS Flexible Box Layout - CSS: Cascading Style Sheets | MDN] (https://intranet.hbtn.io/rltoken/v_s7tHHrr1Nb2TyzCvrx1Q)
-* [afonsopacifer/awesome-flexbox: A curated list of CSS Flexible Box Layout Module or only Flexbox] (https://intranet.hbtn.io/rltoken/Y2lIdR7uvVpQ9NRIEzJdGw)
-* [Build with Flexbox] (https://intranet.hbtn.io/rltoken/BK-btD_tXCrW76o2XD9VQQ)
-* [Flexplorer] (https://intranet.hbtn.io/rltoken/ohwl6NowC67_ejCOcengmA)
-* [CSS Flexible Box Layout Module Level 1] (https://intranet.hbtn.io/rltoken/v8wWIB7dkx727ZusAhZTRA)
-* [FLEX: A simple visual cheatsheet for flexbox] (https://intranet.hbtn.io/rltoken/zQ3BAUi2w8bz5qKNfNxemQ)
+* [A complete Guide to Flexbox | CSS-Tricks] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox Froggy - A game for learning CSS flexbox] (https://flexboxfroggy.com/)
+* [Flexbox Defense] (http://www.flexboxdefense.com/)
+* [Flexbox Cheatsheet] (https://yoksel.github.io/flex-cheatsheet/)
+* [CSS Flexible Box Layout - CSS: Cascading Style Sheets | MDN] (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+* [afonsopacifer/awesome-flexbox: A curated list of CSS Flexible Box Layout Module or only Flexbox] (https://github.com/afonsopacifer/awesome-flexbox)
+* [Build with Flexbox] (https://flexbox.buildwithreact.com/)
+* [Flexplorer] (https://bennettfeely.com/flexplorer/)
+* [CSS Flexible Box Layout Module Level 1] (https://www.w3.org/TR/css-flexbox-1/#flex)
+* [FLEX: A simple visual cheatsheet for flexbox] (https://flexbox.malven.co/)
 
 ---
 
