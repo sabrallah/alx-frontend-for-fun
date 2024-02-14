@@ -1,0 +1,36 @@
+/* 0-styles.css */
+
+/* Set up the navigation list */
+#navlist {
+  position: relative;
+}
+
+/* Style each list item */
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  height: 44px;
+  display: block;
+}
+
+/* Define the sprite positions for each technology */
+#HTML {
+  left: 0;
+  width: 46px;
+  background: url("0-sprite.png") 0 0;
+}
+
+#CSS {
+  left: 63px;
+  width: 43px;
+  background: url("0-sprite.png") -47px 0;
+}
+
+#JavaScript {
+  left: 129px;
+  width: 43px;
+  background: url("0-sprite.png") -91px 0;
+}
