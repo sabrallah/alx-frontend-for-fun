@@ -1,16 +1,16 @@
-/* All my styles */
-.info,
-.success,
-.warning {
-  font-size: 12px;
-}
+/* Task: Assign styles to .info, .success, and .warning classes */
 
-.success {
-  color: #00ff00;
-  @extend .info;
-}
+.info {
+	  font-size: 12px;
+  }
 
-.warning {
-  color: #ff0000;
-  @extend .info;
-}
+  .success {
+	    @extend .info;
+	      color: #00FF00;
+      }
+
+      .warning {
+	        @extend .info;
+		  color: #FF0000;
+	  }
+
