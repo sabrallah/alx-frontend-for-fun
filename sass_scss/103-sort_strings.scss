@@ -1,6 +1,21 @@
-// File: 103-sort_strings.scss
-
+/* Task: Sort a list of strings */
 $list_to_sort: john anna zoe kim felicia carrie;
 
-// Sort the list and print in debug output
-@debug #{sort($list_to_sort)};
+// Function to sort a list
+@function sort_list($list) {
+	  $length: length($list);
+	    @for $i from 1 through $length {
+		        @for $j from $i through $length {
+				      @if str-slice("#{nth($list, $i)}", 1, 1) > str-slice("#{nth($list, $j)}", 1, 1) {
+					              $temp: nth($list, $i);
+						              $list: set-nth($list, $i, nth($list, $j));
+							              $list: set-nth($list, $j, $temp);
+								            }
+									        }
+										  }
+										    @return $list;
+									    }
+
+									    // Print the sorted list
+									    @debug sort_list($list_to_sort);
+
