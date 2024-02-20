@@ -1,0 +1,6 @@
+/* All names */
+$list-names: julien john sam damian;
+
+@each $name in $list-names {
+  @import "header-#{$name}.scss";
+}

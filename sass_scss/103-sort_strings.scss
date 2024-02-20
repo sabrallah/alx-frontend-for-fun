@@ -1,0 +1,6 @@
+// File: 103-sort_strings.scss
+
+$list_to_sort: john anna zoe kim felicia carrie;
+
+// Sort the list and print in debug output
+@debug #{sort($list_to_sort)};
