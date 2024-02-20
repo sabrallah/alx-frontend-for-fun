@@ -1,15 +1,14 @@
-/* Margin mixin */
-@mixin margin-mixin($left, $right) {
-  margin-left: $left;
-  margin-right: $right;
-}
+/* Task: Assign margin left and right to body and div tags using a mixin */
+@mixin margin-set($left, $right) {
+	  margin-left: $left;
+	    margin-right: $right;
+    }
 
-/* Apply mixin to body */
-body {
-  @include margin-mixin(10px, 10px);
-}
+    body {
+	      @include margin-set(10px, 10px);
+      }
 
-/* Apply mixin to div */
-div {
-  @include margin-mixin(15px, 15px);
-}
+      div {
+	        @include margin-set(15px, 15px);
+	}
+
