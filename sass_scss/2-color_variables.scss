@@ -1,15 +1,12 @@
-$body-color: #3d3d3d;
-$bg-color: #6d6d6d;
+/* Task: Assign colors to HTML tags */
+$main-color: #3D3D3D;
+$bg-color: #6D6D6D;
 
-body {
-  color: $body-color;
-  background-color: $bg-color;
-}
+body, p {
+	  color: $main-color;
+  }
 
-p {
-  color: $body-color;
-}
+  body, h2 {
+	    background-color: $bg-color;
+    }
 
-h2 {
-  background-color: $bg-color;
-}
