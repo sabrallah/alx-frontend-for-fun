@@ -1,7 +1,8 @@
-// File: 100-loop_col.scss
+/* Task: Create classes with different widths using a @for statement */
 
 @for $i from 1 through 4 {
-  .col-#{$i} {
-    width: percentage(1 / $i);
-  }
-}
+	  .col-#{$i} {
+		      width: 100% / $i;
+		        }
+		}
+
