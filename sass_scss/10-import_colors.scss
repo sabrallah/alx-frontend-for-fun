@@ -1,22 +1,14 @@
-// 10-import_colors.scss
+/* Task: Assign colors to classes */
+@import '10-colors';
 
-/* All my colors */
-$red: #ff0000;
-$green: #00ff00;
-$blue: #0000ff;
-
-/* Import colors */
-@import "10-colors";
-
-/* Apply colors */
 .red {
-  color: $red;
-}
+	  color: $red;
+  }
 
-.green {
-  color: $green;
-}
+  .green {
+	    color: $green;
+    }
 
-.blue {
-  color: $blue;
-}
+    .blue {
+	      color: $blue;
+      }
