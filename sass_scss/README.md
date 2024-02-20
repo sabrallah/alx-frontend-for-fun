@@ -85,7 +85,4 @@ sass --version
     - Write a Sass file sorting the variable `$list_to_sort` and printing the sorted list in the debug output.
 
 ## Repositories and Contributions
-- All your project files can be found in the [alx-frontend-for-fun GitHub repository](repository_link).
-- Contributions and updates to the project are welcomed through pull requests.
-
-Explore, experiment, and enjoy the learning journey! If you have any questions or need assistance, feel free to reach out. Happy coding! 🚀
+- All project files can be found in the [alx-frontend-for-fun-sass_scss GitHub repository](https://github.com/sabrallah/alx-frontend-for-fun/tree/master/sass_scss).
