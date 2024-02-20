@@ -1,7 +1,10 @@
-body {
-  color: #3d3d3d;
+/* Task: Assign text colors to elements inside body tags and first children of the body with class .red */
 
-  > .red {
-    color: #ff0000;
-  }
-}
+body {
+	    color: #3D3D3D;
+
+	        > .red {
+			        color: #FF0000;
+				    }
+			    }
+
