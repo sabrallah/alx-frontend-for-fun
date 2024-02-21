@@ -1,5 +1,7 @@
 /*This is a SASS code for a button with hover effect*/
-button
+button {
   color: #FF0000;
-  &:hover
+  &:hover {
     color: #00FF00;
+  }
+}
