@@ -1,9 +1,5 @@
-// 103-sort_strings.scss
+/* sort variable $list_to_sort and print sorted list in debug output */
+
 @import '103-sort_list';
 
-// Sort the list
-$list_sorted: sort($list_to_sort);
-
-// Print the sorted list
-@debug $list_sorted;
-
+@debug $list_to_sort;
