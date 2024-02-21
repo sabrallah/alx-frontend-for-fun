@@ -1,0 +1,8 @@
+button {
+    color: #FF0000; // Sets the default text color to red (#FF0000)
+  
+    &:hover { // Applies styles to the button when hovered over
+      color: #00FF00; // Changes the text color to green (#00FF00) on hover
+    }
+  }
+  
