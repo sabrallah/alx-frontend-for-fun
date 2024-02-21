@@ -1,4 +1,4 @@
-/* File that sorts the variable `$list_to_sort` and prints the sorted list in the debug output */
+/* Sorts the variable `$list_to_sort` and prints the sorted list in the debug output */
 @import '103-sort_list';
 
 $default-sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
@@ -19,7 +19,7 @@ $default-sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !defaul
 	@return str-length($a) < str-length($b);
 }
 
-@function quick-sort($list, $order: $default-sort-order) {
+@function custom-quick-sort($list, $order: $default-sort-order) {
 	$less: ();
 	$equal: ();
 	$large: ();
@@ -37,12 +37,12 @@ $default-sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !defaul
 			}
 		}
 
-		@return join(join(quick-sort($less, $order), $equal), quick-sort($large, $order));
+		@return join(join(custom-quick-sort($less, $order), $equal), custom-quick-sort($large, $order));
 	}
 
 	@return $list;
 }
 
-$sorted-list: quick-sort($list_to_sort, $default-sort-order);
+$sorted-list: custom-quick-sort($list_to_sort, $default-sort-order);
 
 @debug "#{$sorted-list}";
