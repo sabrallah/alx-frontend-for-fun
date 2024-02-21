@@ -1,7 +1,8 @@
 /* task6 */
 button {
-  color: #FF0000;
-  &:hover {
-    color: #00FF00;
-  }
+	color: #FF0000;
+}
+
+button:hover {
+	color: #00FF00;
 }
