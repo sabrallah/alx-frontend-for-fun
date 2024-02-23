@@ -1,8 +1,11 @@
-/* add your css here */
+@import 'sass'; // Add missing import statement
+
+/* add your css here 
+add css here */
 button {
-  color: #FF0000;
+  color: red; // Update color value
 
   &:hover {
-    color: #00FF00;
+    color: lime; // Update color value
   }
 }
