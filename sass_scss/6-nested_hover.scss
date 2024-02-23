@@ -1,14 +1,8 @@
-/* My style */
-
-$button-color: #FF0000;
-$hover-color: #00FF00;
-
-// This is a comment about the button style
-// It sets the color of the button and its hover color
+/* add your css here */
 button {
-  color: $button-color;
-  
+  color: #FF0000;
+
   &:hover {
-    color: $hover-color;
+    color: #00FF00;
   }
 }
