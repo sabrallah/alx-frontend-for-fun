@@ -1,9 +1,7 @@
 /* task6 nested sass to scss */
 
-button {
-color: #FF0000;
+button
+  color: #FF0000
 
-&:hover {
-color: #00FF00;
-  }
-}
+  &:hover
+    color: #00FF00
