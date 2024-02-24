@@ -1,11 +1,9 @@
-/* Nested Hover */
-$text-color: #FF0000;
-$hover-text-color: #00FF00;
+/* 6-nested_hover.scss */
 
 button {
-  color: $text-color;
+  color: #FF0000;
 
   &:hover {
-    color: $hover-text-color;
+    color: #00FF00;
   }
 }
