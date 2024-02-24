@@ -1,8 +1,7 @@
 /* File that assigns text color `#FF0000` to `button` tags. */
 button {
-		color: #ff0000;
-
-			&:hover {
-						color: #00ff00;
-					}
-		}
+color: #ff0000;
+	&:hover {
+	color: #00ff00;
+			}
+}
