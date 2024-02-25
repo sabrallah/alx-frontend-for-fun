@@ -1,6 +1,8 @@
 /* 6. Nested hover */
 button
-  color: #FF0000;
-  &:hover
-    color: #00FF00
-    
+        color: #FF0000;
+      } // Remove this closing curly brace
+    } // Add a closing curly brace here
+    &:hover {
+      color: #00FF00;
+    }
