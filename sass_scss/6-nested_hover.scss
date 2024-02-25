@@ -1,9 +1,10 @@
-/* nested hover*/
-$color-0: #FF0000;
-$color-1: #00FF00;
+// Text color #FF0000 to button tags
+// When the user hovers over button tags, text color should change to #00FF00
+
+$red: #FF0000;
+$green: #00FF00;
 button {
-  color: $color-0;
-  &:hover {
-    color: $color-1;
-  }
+    color: $red;
+    &:hover {
+        color: $green; }
 }
