@@ -1,8 +1,7 @@
-/* 6. Nested hover */
-button
-        color: #FF0000;
-      } // Remove this closing curly brace
-    } // Add a closing curly brace here
-    &:hover {
-      color: #00FF00;
-    }
+/* this my sass file */
+button {
+  color: #FF0000; // Red color
+  &:hover {
+    color: #00FF00; // Green color on hover
+  }
+}
