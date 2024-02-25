@@ -1,8 +1,10 @@
-/* Sass file */
-button {
-	     color: #ff0000;
+// Text color #FF0000 to button tags
+// When the user hovers over button tags, text color should change to #00FF00
 
-	     &:hover {
-		           color: #00ff00;
-	     }
-}
+$red: #FF0000;
+$green: #00FF00;
+button {
+    color: $red;
+    &:hover {
+        color: $green; }
+ }
