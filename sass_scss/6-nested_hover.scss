@@ -1,9 +1,7 @@
-/*Sass file that assigns Text color #FF0000 to button tags*/
-$color1: #FF0000;
-$color2: #00FF00;
+/* Nested hover */
 button {
-    color: $color1;
-    &:hover {
-        color: $color2;
-    }
+  color: #FF0000;
+  &:hover {
+    color: #00FF00;
+  }
 }
