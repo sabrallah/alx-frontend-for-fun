@@ -1,11 +1,11 @@
-// Working with Sass hover 
+/*Working with Sass hover*/ 
 
 $text-color: #ff0000;
 $hover-color: #00ff00;
 
 button {
     color: $text-color;
-    &:hover {
+    &.hover {
         color: $hover-color;
     }
 }
