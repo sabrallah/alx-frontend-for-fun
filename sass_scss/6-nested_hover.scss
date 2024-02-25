@@ -1,10 +1,7 @@
-// Text color #FF0000 to button tags
-// When the user hovers over button tags, text color should change to #00FF00
-
-$red: #FF0000;
-$green: #00FF00;
+/* change button color on hover*/
 button {
-    color: $red;
+    color: #FF0000;
     &:hover {
-        color: $green; }
- }
+        color: #00FF00;
+    }
+}
