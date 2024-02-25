@@ -1,10 +1,9 @@
-/* Nested hover
-change button color on hover */
-
+/* change button color on hover*/
+$color: #FF0000;
+$color2: #00FF00;
 button {
-    color: #FF0000;
-
-    &:hover {
-        color: #00FF00;
-    }
+	     color: $color;
+	     &:hover {
+		           color: $color2;
+	     }
 }
