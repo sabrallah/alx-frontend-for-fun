@@ -1,7 +1,8 @@
-/* this my sass file */
+/* Assign text colors to button tags */
 button {
-  color: #FF0000; // Red color
+  color: #FF0000;  /* Set initial text color to #FF0000 (red) */
+  
   &:hover {
-    color: #00FF00; // Green color on hover
+    color: #00FF00;  /* Change text color to #00FF00 (green) on hover */
   }
 }
